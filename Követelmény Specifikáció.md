@@ -13,3 +13,13 @@ Projektünk célja, hogy egy letisztult és könnyen elérhető webes játékot 
 
 Szolgáltatásunk egyszerű és kényelmes használhatóságával kívánunk kitűnni, valamint azzal, hogy nem kérünk semmilyen személyes információt. A mai digitális világban a személyes adatok megadása nagy kockázattal jár, mivel adatvédelmi incidensek során ezek illetéktelen kezekbe kerülhetnek. Ennek elkerülése érdekében a játékunk nem kér semmiféle regisztrációt, és nem gyűjt személyes adatokat. Ráadásul a játék kliensoldalon fut, így semmilyen adat nem kerül szerverre, amelyet a felhasználó tudta nélkül továbbíthatna az eszközéről.
 
+9.Fogalomtár
+-Blackjack: Sokak által ismert kaszinójáték, elterjedt neve még a huszonegy.
+
+-Dealer: Angolul az &#39;osztó&#39;-t jelenti.
+
+-Data leak: Adatszivárgás. Amikor egy szervezettől, vagy cégtől kiszivárognak
+  adatok. Jelen kontextusban olyan adatszivárgásról van szó, ami a felhasználók
+  személyes adatainak kiszivárgását jelenti.
+  Általában csak e-mailek és jelszavak szoktak kiszivárogni, de súlyosabb esetek is
+  léteznek.
