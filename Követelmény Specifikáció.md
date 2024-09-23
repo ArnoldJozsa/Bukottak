@@ -16,7 +16,7 @@ Szolgáltatásunk egyszerű és kényelmes használhatóságával kívánunk kit
 9.Fogalomtár
 -Blackjack: Sokak által ismert kaszinójáték, elterjedt neve még a huszonegy.
 
--Dealer: Angolul az &#39;osztó&#39;-t jelenti.
+-Dealer: Angolul az 'osztó'-t jelenti.
 
 -Data leak: Adatszivárgás. Amikor egy szervezettől, vagy cégtől kiszivárognak
   adatok. Jelen kontextusban olyan adatszivárgásról van szó, ami a felhasználók

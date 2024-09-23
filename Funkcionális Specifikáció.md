@@ -6,6 +6,9 @@ A rendszer azok számára készült, akik nem engedhetik meg maguknak, hogy haso
 3.Követelménylista
 A projektünk az ismert Blackjack/21 szabályai alapján fog működni, így az azáltal előírt funkciókat tartalmazni fogja a projekt, ezzel eleget téve a szerencsejáték követelménynek.
 
+6.Használati esetek
+A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9. Forgatókönyv). A szolgáltatás teljesen ingyenes, és nincs szükség regisztrációra, így a felhasználók széles köre számára hozzáférhetővé válik, személyes adataikat nem tesszük ki a kiszivárgás veszélyének (data-leak). Ezenkívül azoknak is lehetőséget biztosítunk, akik nem tudnák kifizetni a hasonló játékok belépési díját. Az egyszerűen kezelhető, letisztult és áttekinthető felület garantálja a könnyű használatot. Mivel nincs szükség szerveroldali kódra, a szolgáltatás állandóan elérhető a felhasználók számára.
+
 7.Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
     1, Játékszabályok implementálása:
     A játék a klasszikus Blackjack/21 szabályain alapul, így a használati esetek magukban foglalják a lapok kiosztását, a hit/stand funkciókat, a dealer és a játékos pontszámának összehasonlítását, valamint a nyerési és vesztési feltételeket. Ezáltal teljes mértékben eleget teszünk a szerencsejáték működésének követelményeinek.
