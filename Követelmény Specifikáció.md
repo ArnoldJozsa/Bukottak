@@ -1,3 +1,8 @@
+2.Jelenlegi helyzet
+A megrendelő szeretne egy nem szerverfüggő letisztult oldallal rendelkező, ingyenes, letöltést nem
+igénylő Blackjack gyakorló webes alkalmazást.
+A rendszer azok számára készült, akik nem engedhetik meg maguknak, hogy hasonló szolgáltatásokért fizessenek, nem szeretnék megosztani személyes adataikat kockázatoknak kitéve, vagy egyszerűen csak egy gyakorlófelületet keresnek, ahol a játék szabályai érthetően el vannak magyarázva.
+
 3.Vágyálomrendszer
 Csoportunk célja, hogy a projekt keretében egy egyszerű és letisztult webes Blackjack játékot hozzunk létre, amely regisztráció nélkül, ingyenesen elérhető. A játék felülete nem lesz túlkomplikált, és tartalmazza a szabályok részletes ismertetését, hogy a felhasználók könnyen megértsék, hogyan kell játszani. A játékban a felhasználó egy virtuális dealer ellen próbálhat szerencsét, miközben logikai és matematikai képességeit is tesztelheti. A játék automatikusan megad egy kezdő tétet, amelyet a felhasználó használhat a játék során, és folyamatosan nyomon követi az aktuális tétet és a nyert összeget. Amennyiben a felhasználó elfogyasztja a rendelkezésére álló pénzösszeget, a játék újraindul, és a nyeremény egyenlege nullázódik.
 
