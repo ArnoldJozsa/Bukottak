@@ -25,6 +25,9 @@ A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9.
     5,Ingyenes hozzáférés és egyszerűség:
     A játék teljesen ingyenesen elérhető, és nem igényel semmilyen pénzbeli befektetést. Ezáltal biztosítjuk, hogy a felhasználó anélkül élvezhesse a játékot, hogy bármilyen anyagi elköteleződésbe kellene bocsátkoznia, így teljes mértékben megfelel a használati esetekben előírt követelményeknek.
 
+10.Funkció-követelmény megfeleltetés
+A projektünk a Blackjack/21 szabályrendszert fogja követni, így a játék által megkövetelt funkciók mind beépülnek a rendszerbe, ezzel biztosítva, hogy a szerencsejátékra vonatkozó követelmények teljesüljenek.
+
 11.Fogalomszótár
 Dealer: A program által irányított "ellenfél", amely szintén részt vesz a játékban és követi a Blackjack szabályait. A játékos célja, hogy jobb pontszámot érjen el, mint a dealer.
 
