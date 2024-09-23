@@ -1,3 +1,5 @@
+3.Üzleti folyamatok modellje
+![uzleti_folyamat](https://user-images.githubusercontent.com/82752886/135045846-c1ea8490-7fe1-4f7f-b73f-8c2b4a14c746.png)
 4.Követelmények
 - Webes megvalósítás.
 - A rendszer fejlesztése HTML/CSS valamint JavaScript segítségével történik.
