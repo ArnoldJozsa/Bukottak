@@ -1,3 +1,6 @@
+1.Áttekintés
+Projektünk célja egy ingyenes, regisztrációmentes online Blackjack játék létrehozása, amely könnyen elérhető és felhasználóbarát felületet biztosít a játékosok számára. A tervezés során nagy hangsúlyt fektetünk a letisztult, minimalista dizájnra és az egyszerű kezelhetőségre, hogy a felhasználói élmény gördülékeny és intuitív legyen. A játék böngészőben fut, további szoftverek telepítése nélkül, és a HTML, CSS, valamint Javascript segítségével biztosítjuk a gyors és zökkenőmentes működést. Az online Blackjack célja, hogy egy mindenki számára hozzáférhető, szórakoztató és vizuálisan esztétikus játékélményt nyújtson.
+
 2.Jelenlegi helyzet
 Számos online Blackjack játék érhető el, de sok közülük nem ingyenes, és gyakran mikrotranzakciókon alapuló szerencsejátékok. Úgy éreztük, hogy hiányzik egy igazán egyszerűen használható, átlátható és ingyenes verzió. Sok olyan weboldalon, ahol ingyenesen lehet játszani, a regisztráció mégis kötelező, és számos esetben a weboldal dizájnja túlságosan zsúfolt vagy bonyolult. Célunk egy olyan platform létrehozása, ahol a felhasználók szabadon gyakorolhatnak, megismerhetik a Blackjack szabályait és stratégiáit, akár szerencsejáték-rajongók, akár csak tanulni szeretnének.
 
