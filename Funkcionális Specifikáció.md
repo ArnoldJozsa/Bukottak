@@ -43,4 +43,3 @@ Hit/Stand:
 Hit: A játékos kér egy újabb lapot, hogy közelebb kerüljön a 21-es értékhez.
 Stand: A játékos megáll, és nem kér több lapot.
 
-Felhasználói interakció: A játékos által végrehajtott műveletek, például a lapok kérése (hit) vagy megállás (stand). Ezek a műveletek a játék szabályainak megfelelően határozzák meg a játék kimenetelét.
