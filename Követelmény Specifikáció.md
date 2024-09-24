@@ -13,6 +13,9 @@ Projektünk célja, hogy egy letisztult és könnyen elérhető webes játékot 
 
 Szolgáltatásunk egyszerű és kényelmes használhatóságával kívánunk kitűnni, valamint azzal, hogy nem kérünk semmilyen személyes információt. A mai digitális világban a személyes adatok megadása nagy kockázattal jár, mivel adatvédelmi incidensek során ezek illetéktelen kezekbe kerülhetnek. Ennek elkerülése érdekében a játékunk nem kér semmiféle regisztrációt, és nem gyűjt személyes adatokat. Ráadásul a játék kliensoldalon fut, így semmilyen adat nem kerül szerverre, amelyet a felhasználó tudta nélkül továbbíthatna az eszközéről.
 
+8.Követelménylista
+A játék felülete intuitív és könnyen kezelhető legyen, hogy a felhasználó gyorsan megértse a funkciókat. A játék magyarázó oldalán világos és rövid szabályleírás szerepeljen, amely segít a kezdőknek megérteni a játékmenetet. A játék automatikusan kezelje a győzelem és vereség állapotokat, és azonnal újrainduljon, ha a felhasználó elveszti a pénzét.
+
 9.Fogalomtár
 -Blackjack: Sokak által ismert kaszinójáték, elterjedt neve még a huszonegy.
 
