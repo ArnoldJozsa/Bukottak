@@ -13,6 +13,12 @@ A rendszer célja, hogy a felhasználó kipróbálja szerencséjét és stratég
 - A weboldal használatához egy egyszerű böngészőre van szükség.
 - Megszakításmentes játékmenet.
 
+5.Funkcionális terv
+
+
+Rendszerszereplők
+-Játékos: A rendszer kizárólag egyetlen szereplőt támogat, a játékost, mivel nincs szükség további, például adminisztrátori szerepkör hozzáadására. A játékos lehetőséget kap arra, hogy a játékmenet során különböző döntéseket hozzon, mint például a lapkérés, tét elhelyezése, duplázás vagy kiszállás.
+
 7.Archtitekturális terv
 A rendszerhez mindössze egy webböngészőre van szükség, amely képes JavaScript kódot futtatni. Mivel az egész a kliens oldalon fut, akár a HTML fájl megnyitásával futtatható a játék alkalmazás.
 
