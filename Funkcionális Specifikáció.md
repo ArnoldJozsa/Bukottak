@@ -44,6 +44,41 @@ A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9.
 
 ![Funk drawio](https://user-images.githubusercontent.com/82752886/135749142-efffc873-8187-4163-84a0-3c5b748e40e6.png)
 
+9.Forgatókönyv:
+Szereplők: A felhasználó és a futó webes alkalmazás.
+
+Kezdés:
+ A felhasználó megnyitja a böngészőjében a szolgáltatást, amely egy letisztult felületen, regisztráció nélkül elérhető. A játék indulásakor a felhasználó kap egy 
+ virtuális kezdőösszeget, amellyel téteket rakhat a klasszikus Blackjack játék során.
+ 
+Játékmenet:
+ - Ha a felhasználó nem ismeri a játék szabályait, lehetősége van elolvasni egy rövid útmutatót és tippeket a játékmenetről, amelyek segítenek a gyors tanulásban. 
+ - A szabályok és tippek könnyen elérhetők, hogy a játék közben is visszatérhessen hozzájuk.
+ - A felhasználó kiválasztja a tétet, amely az aktuális egyenlegének függvényében változik, majd megkezdi a játékot.
+ - A tét letétele után a felhasználó két kezdőkártyát kap, ahogyan a dealer is, viszont a dealer egyik kártyája lefordítva marad.
+
+Döntési fázis:
+ - A felhasználó eldöntheti, hogy meg akarja-e tartani a kártyáit (marad), vagy újabb kártyákat kér (hívás).
+ - Ha a felhasználó hívás mellett dönt, akkor addig kérhet újabb kártyákat, amíg úgy nem érzi, hogy megfelelő az összérték. Azonban, ha a kártyáinak összege 
+   meghaladja a 21-et (ez "túlcsordulást" jelent), akkor azonnal elveszíti a kört és a felrakott tétet.
+
+A dealer szabályai:
+  - A dealernek is két kártyája van, és ugyanazon szabályok szerint játszik. A dealernek kötelező megállnia, ha a kártyáinak összértéke eléri a 17-et.
+ - A dealer szintén elveszíti a kört, ha a kártyái túlmennek a 21 értéken.
+
+Kör vége:
+ A kör végén a nyertes (felhasználó vagy dealer) kapja meg a nyereményt. Ha a felhasználó nyer, visszanyeri a felrakott tét dupláját. Ha a felhasználó veszít, a tétet elveszíti.
+ 
+Virtuális pénzkezelés:
+ - A dealer nem tud kifogyni a pénzből, míg a felhasználónak figyelnie kell az egyenlegére. Ha a felhasználó elveszíti az összes pénzét, a játék újrakezdődik. 
+   Ebben az esetben az össznyeremény számlálója lenullázódik, és újra kap egy kezdeti összeget.
+ - Ahogy a felhasználó előrehalad a játékban és gyűjti a nyereményeket, a minimum tét automatikusan növekedik a rendelkezésre álló pénzösszeg alapján, így a játékmenet dinamikus marad.
+
+Végtelenségig tartó játék:
+A játék nincs időhöz vagy körökhöz kötve, tehát elméletileg végtelenségig tarthat, ha a felhasználó jól játszik és nem fogy el a pénze. A játékmenet célja a szórakozás és a gyakorlat, mivel nem valós pénzt használ, így a felhasználó kockázat nélkül fejlesztheti Blackjack tudását.
+
+Kiegészítés: A játék biztosítja a folyamatos kihívást azáltal, hogy a nehézség növekedik, ahogy a felhasználó előrehalad. Az alkalmazás emellett valós idejű visszajelzéseket is adhat a játékon belüli döntésekről, segítve ezzel a tanulást és a stratégia finomítását.
+
 10.Funkció-követelmény megfeleltetés
 A projektünk a Blackjack/21 szabályrendszert fogja követni, így a játék által megkövetelt funkciók mind beépülnek a rendszerbe, ezzel biztosítva, hogy a szerencsejátékra vonatkozó követelmények teljesüljenek.
 
