@@ -20,12 +20,15 @@ Rendszerszereplők
 -Játékos: A rendszer kizárólag egyetlen szereplőt támogat, a játékost, mivel nincs szükség további, például adminisztrátori szerepkör hozzáadására. A játékos lehetőséget kap arra, hogy a játékmenet során különböző döntéseket hozzon, mint például a lapkérés, tét elhelyezése, duplázás vagy kiszállás.
 
 7.Archtitekturális terv
+
 A rendszerhez mindössze egy webböngészőre van szükség, amely képes JavaScript kódot futtatni. Mivel az egész a kliens oldalon fut, akár a HTML fájl megnyitásával futtatható a játék alkalmazás.
 
 8.Tesztterv
+
 Az alkalmazás elkészítése során szükség van a folyamatos tesztelésre. Tesztelni kell a gombok működését, valamint a pontszám változását, ha a játékos vagy a gép nyer, illetve az új játék kezdésénél a pontszám nullázását.
 
 9.Telepítési terv
+
 Az alkalmazás futtatásához egy általános felhasználású böngészőre van szükség, nem igényel külön telepítést.
 
 10.Karbantartási terv
