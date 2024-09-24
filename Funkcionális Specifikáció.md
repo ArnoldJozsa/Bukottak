@@ -10,6 +10,17 @@ Manapság minden elterjedt online szerencsejáték igényel regisztrációt és 
 3.Követelménylista
 A projektünk az ismert Blackjack/21 szabályai alapján fog működni, így az azáltal előírt funkciókat tartalmazni fogja a projekt, ezzel eleget téve a szerencsejáték követelménynek.
 
+5.Igényelt üzleti folyamatok modellje:
+Annak érdekében, hogy a felhasználókkal kényelmes és bizalomra épülő kapcsolatot alakítsunk ki, egy olyan szerencsejáték szolgáltatást fejlesztünk, amely a következő alapelveket követi:
+
+- Nincs letöltési kötelezettség: A játék teljes egészében böngészőn keresztül érhető el, így elkerülhető, hogy a felhasználóknak bármilyen fájlt le kelljen           tölteniük, minimalizálva annak lehetőségét, hogy az adataikhoz bárki hozzáférhessen.
+- Regisztrációmentes használat: A szolgáltatás nem igényel semmilyen regisztrációt, így a felhasználók személyes adatai nem kerülnek begyűjtésre, ezáltal             garantáljuk a teljes adatbiztonságot és névtelenséget.
+- Költségmentes élmény: A játék használata teljesen ingyenes, semmilyen kezdőösszeg befizetésére nincs szükség, és a későbbiekben sem merülnek fel rejtett            költségek vagy további díjak.
+- Független működés a szerverektől: A játék nem fut szerveroldalon, hanem a felhasználó gépén működik, ami lehetővé teszi, hogy a szolgáltatás bármikor elérhető      legyen, függetlenül a szerverek aktuális állapotától vagy elérhetőségétől.
+- Játékszabályok és információk közlése: A felhasználók részletes tájékoztatást kapnak a játékhoz szükséges szabályokról és információkról, így biztosítva, hogy      mindenki tisztában legyen a játékmenettel és annak mechanikáival.
+  
+A modell célja egy olyan könnyen hozzáférhető és biztonságos szerencsejáték platform létrehozása, amely nem igényel sem pénzügyi elköteleződést, sem személyes adatokat, és folyamatosan rendelkezésre áll a felhasználók számára, bármiféle technikai függőség nélkül.
+
 6.Használati esetek
 A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9. Forgatókönyv). A szolgáltatás teljesen ingyenes, és nincs szükség regisztrációra, így a felhasználók széles köre számára hozzáférhetővé válik, személyes adataikat nem tesszük ki a kiszivárgás veszélyének (data-leak). Ezenkívül azoknak is lehetőséget biztosítunk, akik nem tudnák kifizetni a hasonló játékok belépési díját. Az egyszerűen kezelhető, letisztult és áttekinthető felület garantálja a könnyű használatot. Mivel nincs szükség szerveroldali kódra, a szolgáltatás állandóan elérhető a felhasználók számára.
 
