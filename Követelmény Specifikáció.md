@@ -15,6 +15,13 @@ Rendelkezik egy, a felhasználó rendelkezésére álló összeg számlálójáv
 Manapság az online szerencsejáték oldalakra szükséges minimum pénzösszeg, és szinte nem is nyújtanak gyakorlási vagy bemutatót a felhasználók számára, hanem egyből a mélyvízbe dobják.
 Ezek az oldalak gyakran kérnek regisztrációt személyes adatok megadásával, és bizonyos esetekben a felületeik bonyolultak, nehezen átláthatók, ami megnehezíti a játék élvezetét vagy akár a kezdést is. Ez sok felhasználót elriaszthat az ilyen típusú online játékok kipróbálásától.
 
+5.Rendszerre vonatkozó törvények, szabványok és ajánlások:
+- A projekt az ismert Blackjack 21 szabályrendszer alapján kerül kialakításra, követve a játék klasszikus elveit és játékmenetét.
+- A szolgáltatás teljes mértékben ingyenes, semmilyen pénzügyi hozzájárulást nem igényel a felhasználóktól.
+- Mivel a játék során nem kerül sor pénzes tranzakciókra vagy tételhelyezésre, a projekt nem sorolható a szerencsejátékokra vonatkozó profitáló kategóriába, így      nem esik a szerencsejátékokra vonatkozó jogi szabályozás alá.
+- A játék egy gyakorló vagy demo jellegű platformként szolgál, ahol a felhasználók kipróbálhatják és elsajátíthatják a Blackjack alapvető stratégiáit és              szabályait, pénzvesztés kockázata nélkül.
+- A fentiek alapján a projekt nem sért semmilyen vonatkozó jogszabályt vagy előírást, mivel nem tekinthető valódi szerencsejátéknak. A játék célja kizárólag a        szórakoztatás és gyakorlás biztosítása, pénzügyi haszonszerzés vagy szerencsejáték-alapú bevétel nélkül.
+
 7.Igényelt üzleti folyamatok
 Projektünk célja, hogy egy letisztult és könnyen elérhető webes játékot hozzunk létre, amely egyszerűen fut böngészőben, és sem regisztrációt, sem személyes adatokat nem kér a felhasználóktól. A játék teljesen ingyenes, nem szükséges semmilyen anyagi befektetés sem az induláshoz, sem a folytatáshoz. A Blackjack/21 játék jól ismert szabályain alapul, így nem szükséges módosítanunk rajta.
 
