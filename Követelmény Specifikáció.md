@@ -4,6 +4,10 @@ Számos online Blackjack játék érhető el, de sok közülük nem ingyenes, é
 3.Vágyálomrendszer
 Csoportunk célja, hogy a projekt keretében egy egyszerű és letisztult webes Blackjack játékot hozzunk létre, amely regisztráció nélkül, ingyenesen elérhető. A játék felülete nem lesz túlkomplikált, és tartalmazza a szabályok részletes ismertetését, hogy a felhasználók könnyen megértsék, hogyan kell játszani. A játékban a felhasználó egy virtuális dealer ellen próbálhat szerencsét, miközben logikai és matematikai képességeit is tesztelheti. A játék automatikusan megad egy kezdő tétet, amelyet a felhasználó használhat a játék során, és folyamatosan nyomon követi az aktuális tétet és a nyert összeget. Amennyiben a felhasználó elfogyasztja a rendelkezésére álló pénzösszeget, a játék újraindul, és a nyeremény egyenlege nullázódik.
 
+Funkcionális követelmények
+A projekt funkcionálisan nem bonyolult vagy terjengős. Egy böngésző szükséges a használatához, ami támogat Javascriptet, és kliens oldalon fut.
+Rendelkezik egy, a felhasználó rendelkezésére álló összeg számlálójával, ha nulla, vagy az alá esik, véget ér a játék és újra kell kezdeni, továbbá egy, a jelenlegi játék alatt nyert összeg számlálójával, a játékosnak feltünteti a kiosztott lapokat és szintúgy a virtuális dealer lapjait.
+
 4.Jelenlegi üzleti folyamatok modellje
 Manapság az online szerencsejáték oldalakra szükséges minimum pénzösszeg, és szinte nem is nyújtanak gyakorlási vagy bemutatót a felhasználók számára, hanem egyből a mélyvízbe dobják.
 Ezek az oldalak gyakran kérnek regisztrációt személyes adatok megadásával, és bizonyos esetekben a felületeik bonyolultak, nehezen átláthatók, ami megnehezíti a játék élvezetét vagy akár a kezdést is. Ez sok felhasználót elriaszthat az ilyen típusú online játékok kipróbálásától.
