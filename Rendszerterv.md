@@ -7,6 +7,7 @@ A rendszer célja, hogy a felhasználó kipróbálja szerencséjét és stratég
 ![uzleti_folyamat](https://user-images.githubusercontent.com/82752886/135045846-c1ea8490-7fe1-4f7f-b73f-8c2b4a14c746.png)
 
 4.Követelmények
+
 - Webes megvalósítás.
 - A rendszer fejlesztése HTML/CSS valamint JavaScript segítségével történik.
 - A weblap felépítése, valamint dizájnolása a HTML/CSS nyelv implementálásával valósítandó meg.
@@ -15,9 +16,21 @@ A rendszer célja, hogy a felhasználó kipróbálja szerencséjét és stratég
 
 5.Funkcionális terv
 
-
 Rendszerszereplők
 -Játékos: A rendszer kizárólag egyetlen szereplőt támogat, a játékost, mivel nincs szükség további, például adminisztrátori szerepkör hozzáadására. A játékos lehetőséget kap arra, hogy a játékmenet során különböző döntéseket hozzon, mint például a lapkérés, tét elhelyezése, duplázás vagy kiszállás.
+
+6.Fizikai környezet
+
+A rendszer fejlesztése HTML, CSS és JavaScript technológiák segítségével történik, amelyek lehetővé teszik a zökkenőmentes böngészőalapú futtatást.
+
+ - Felépítés és dizájn: A weboldal struktúráját és megjelenését HTML és CSS kombinációjával valósítjuk meg, biztosítva egy letisztult, felhasználóbarát felületet, 
+   amely reszponzív, tehát jól mutat különböző eszközökön, beleértve az asztali gépeket, laptopokat, tableteket és okostelefonokat.
+
+ - Futási környezet: A játék használatához csupán egy naprakész böngésző szükséges, mint például Google Chrome, Mozilla Firefox, Microsoft Edge vagy Safari. Ez 
+   lehetővé teszi a rendszer működését bármilyen operációs rendszeren, mint például Windows, macOS, Linux, iOS vagy Android.
+
+ - Platformfüggetlen elérhetőség: A rendszer platformfüggetlen, így a felhasználók asztali gépről, laptopról vagy mobil eszközről is könnyedén elérhetik a játékot, 
+   biztosítva a kényelmes és zökkenőmentes élményt.
 
 7.Archtitekturális terv
 
