@@ -29,7 +29,7 @@ A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9.
     5,Ingyenes hozzáférés és egyszerűség:
     A játék teljesen ingyenesen elérhető, és nem igényel semmilyen pénzbeli befektetést. Ezáltal biztosítjuk, hogy a felhasználó anélkül élvezhesse a játékot, hogy bármilyen anyagi elköteleződésbe kellene bocsátkoznia, így teljes mértékben megfelel a használati esetekben előírt követelményeknek.
 
-##8.Képernyő tervek
+8.Képernyő tervek
 
 ![Funk drawio](https://user-images.githubusercontent.com/82752886/135749142-efffc873-8187-4163-84a0-3c5b748e40e6.png)
 
