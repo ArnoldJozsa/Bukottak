@@ -47,3 +47,20 @@ Az alkalmazás futtatásához egy általános felhasználású böngészőre van
 10.Karbantartási terv
 
 Az alkalmazás bővítésének lehetőségét fenntartjuk. A jövőben többjátékos mód is hozzáadható, amennyiben erre igény mutatkozik. A karbantartás elsősorban hibajavításokra és kompatibilitási frissítésekre korlátozódik.
+
+11.Implementációs terv
+
+A projekt felülete HTML és CSS segítségével készül, míg a működéshez JavaScript-et is integrálunk. A fejlesztési folyamat a következő lépéseket tartalmazza:
+
+HTML struktúra: Az alapvető weboldal struktúráját HTML-ben alakítjuk ki, beleértve a játékfelületet, kártyákat, gombokat és a felhasználói információkat (pl. 
+  egyenleg, tétek).
+CSS dizájn: A felhasználói felület esztétikáját CSS-sel valósítjuk meg, figyelmet fordítva a színpalettára, betűtípusokra és a reszponzív megjelenésre, hogy a 
+  felhasználói élmény kellemes legyen.
+JavaScript funkcionalitás: A játék logikáját JavaScript-ben implementáljuk, amely magában foglalja a kártyák kiosztását, a játékosok döntéseit és a nyeremények 
+  számítását.
+Szeparált felépítés: A jobb átláthatóság és bővíthetőség érdekében a HTML, CSS és JavaScript kódokat külön fájlokban kezeljük, amelyeket a weboldal betöltésekor 
+  összekapcsolunk.
+Tesztelés: Folyamatosan teszteljük az alkalmazást különböző böngészőkben és eszközökön a megbízhatóság és a zökkenőmentes működés érdekében.
+Dokumentáció: Részletes dokumentációt készítünk a kód struktúrájáról és a felhasználói útmutatóról, amely segíti a csapat tagjait és a jövőbeli fejlesztőket.
+
+Ezzel a tervvel célunk egy jól működő, felhasználóbarát és bővíthető Blackjack 21 játék létrehozása, amely élvezetes élményt nyújt a felhasználóknak.
