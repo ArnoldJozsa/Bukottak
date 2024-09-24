@@ -27,3 +27,7 @@ Az alkalmazás elkészítése során szükség van a folyamatos tesztelésre. Te
 
 9.Telepítési terv
 Az alkalmazás futtatásához egy általános felhasználású böngészőre van szükség, nem igényel külön telepítést.
+
+10.Karbantartási terv
+
+Az alkalmazás bővítésének lehetőségét fenntartjuk. A jövőben többjátékos mód is hozzáadható, amennyiben erre igény mutatkozik. A karbantartás elsősorban hibajavításokra és kompatibilitási frissítésekre korlátozódik.
