@@ -1,3 +1,7 @@
+1.Áttekintés
+Egy olyan webes alkalmazást fejlesztünk, amely a népszerű Blackjack 21 kártyajátékot kínálja ingyenesen, regisztráció és személyes adatok megadása nélkül. A játék könnyen elérhető böngészőből, letöltést nem igényel, és mivel helyben fut a felhasználó eszközén, nincs szerverfüggőség, így mindig zavartalanul játszható.
+Az alkalmazás a klasszikus Blackjack szabályai alapján működik, lehetőséget adva a felhasználóknak, hogy kockázat nélkül próbára tegyék szerencséjüket és gyakorolják a játékot. A cél egy egyszerű, biztonságos és mindig elérhető platform létrehozása a játékosok számára.
+
 2.Jelenlegi helyzet
 A megrendelő szeretne egy nem szerverfüggő letisztult oldallal rendelkező, ingyenes, letöltést nem
 igénylő Blackjack gyakorló webes alkalmazást.
@@ -10,7 +14,7 @@ Manapság minden elterjedt online szerencsejáték igényel regisztrációt és 
 3.Követelménylista
 A projektünk az ismert Blackjack/21 szabályai alapján fog működni, így az azáltal előírt funkciókat tartalmazni fogja a projekt, ezzel eleget téve a szerencsejáték követelménynek.
 
-5.Igényelt üzleti folyamatok modellje:
+5.Igényelt üzleti folyamatok modellje
 Annak érdekében, hogy a felhasználókkal kényelmes és bizalomra épülő kapcsolatot alakítsunk ki, egy olyan szerencsejáték szolgáltatást fejlesztünk, amely a következő alapelveket követi:
 
 - Nincs letöltési kötelezettség: A játék teljes egészében böngészőn keresztül érhető el, így elkerülhető, hogy a felhasználóknak bármilyen fájlt le kelljen           tölteniük, minimalizálva annak lehetőségét, hogy az adataikhoz bárki hozzáférhessen.
@@ -44,7 +48,7 @@ A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9.
 
 ![Funk drawio](https://user-images.githubusercontent.com/82752886/135749142-efffc873-8187-4163-84a0-3c5b748e40e6.png)
 
-9.Forgatókönyv:
+9.Forgatókönyv
 Szereplők: A felhasználó és a futó webes alkalmazás.
 
 Kezdés:
