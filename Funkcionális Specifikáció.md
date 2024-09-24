@@ -3,6 +3,10 @@ A megrendelő szeretne egy nem szerverfüggő letisztult oldallal rendelkező, i
 igénylő Blackjack gyakorló webes alkalmazást.
 A rendszer azok számára készült, akik nem engedhetik meg maguknak, hogy hasonló szolgáltatásokért fizessenek, nem szeretnék megosztani személyes adataikat kockázatoknak kitéve, vagy egyszerűen csak egy gyakorlófelületet keresnek, ahol a játék szabályai érthetően el vannak magyarázva.
 
+3.Jelenlegi üzleti folyamatok modellje
+Manapság minden elterjedt online szerencsejáték igényel regisztrációt és egy prémium befizetését a játék elkezdéséhez. Ez leszűkíti a lehetséges felhasználók halmazát, sőt, teljesen elijesztheti az embereket a szerencsejátékoktól. A lehetséges felhasználók alternatívákat keresnek, de ha találnak is, azok általában csak olyan lehetőségeket kínálnak, amelyek személyes adatok megadásával játszhatók. Ez esetleges data-leak esetén adatlopáshoz vezethet, ami negatív hatással van a felhasználók bizalmára, valamint a cég megbízhatóságára és hírnevére is.
+Általában ezekhez az online szerencsejátékokhoz nem található az adott oldalon útmutató vagy szabályzat sem. Ezen hibákat ki lehetne küszöbölni azzal, hogy a szolgáltatás ingyenesen elérhető, nem igényel regisztrációt (ezáltal kiküszöbölve az esetleges adatlopás lehetőségét), valamint kliens oldali futással érhető el, hogy a szolgáltatás ne függjön a szerver működésétől, és mindig elérhető legyen a felhasználó számára.
+
 3.Követelménylista
 A projektünk az ismert Blackjack/21 szabályai alapján fog működni, így az azáltal előírt funkciókat tartalmazni fogja a projekt, ezzel eleget téve a szerencsejáték követelménynek.
 
