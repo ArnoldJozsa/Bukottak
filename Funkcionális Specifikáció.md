@@ -1,22 +1,22 @@
 # Funkcionális specifikáció
 
-## 1.Áttekintés
+## 1. Áttekintés
 Egy olyan webes alkalmazást fejlesztünk, amely a népszerű Blackjack 21 kártyajátékot kínálja ingyenesen, regisztráció és személyes adatok megadása nélkül. A játék könnyen elérhető böngészőből, letöltést nem igényel, és mivel helyben fut a felhasználó eszközén, nincs szerverfüggőség, így mindig zavartalanul játszható.
 Az alkalmazás a klasszikus Blackjack szabályai alapján működik, lehetőséget adva a felhasználóknak, hogy kockázat nélkül próbára tegyék szerencséjüket és gyakorolják a játékot. A cél egy egyszerű, biztonságos és mindig elérhető platform létrehozása a játékosok számára.
 
-## 2.Jelenlegi helyzet
+## 2. Jelenlegi helyzet
 A megrendelő szeretne egy nem szerverfüggő letisztult oldallal rendelkező, ingyenes, letöltést nem
 igénylő Blackjack gyakorló webes alkalmazást.
 A rendszer azok számára készült, akik nem engedhetik meg maguknak, hogy hasonló szolgáltatásokért fizessenek, nem szeretnék megosztani személyes adataikat kockázatoknak kitéve, vagy egyszerűen csak egy gyakorlófelületet keresnek, ahol a játék szabályai érthetően el vannak magyarázva.
 
-## 3.Jelenlegi üzleti folyamatok modellje
+## 3. Jelenlegi üzleti folyamatok modellje
 Manapság minden elterjedt online szerencsejáték igényel regisztrációt és egy prémium befizetését a játék elkezdéséhez. Ez leszűkíti a lehetséges felhasználók halmazát, sőt, teljesen elijesztheti az embereket a szerencsejátékoktól. A lehetséges felhasználók alternatívákat keresnek, de ha találnak is, azok általában csak olyan lehetőségeket kínálnak, amelyek személyes adatok megadásával játszhatók. Ez esetleges data-leak esetén adatlopáshoz vezethet, ami negatív hatással van a felhasználók bizalmára, valamint a cég megbízhatóságára és hírnevére is.
 Általában ezekhez az online szerencsejátékokhoz nem található az adott oldalon útmutató vagy szabályzat sem. Ezen hibákat ki lehetne küszöbölni azzal, hogy a szolgáltatás ingyenesen elérhető, nem igényel regisztrációt (ezáltal kiküszöbölve az esetleges adatlopás lehetőségét), valamint kliens oldali futással érhető el, hogy a szolgáltatás ne függjön a szerver működésétől, és mindig elérhető legyen a felhasználó számára.
 
-## 4.Követelménylista
+## 4. Követelménylista
 A projektünk az ismert Blackjack/21 szabályai alapján fog működni, így az azáltal előírt funkciókat tartalmazni fogja a projekt, ezzel eleget téve a szerencsejáték követelménynek.
 
-## 5.Igényelt üzleti folyamatok modellje
+## 5. Igényelt üzleti folyamatok modellje
 Annak érdekében, hogy a felhasználókkal kényelmes és bizalomra épülő kapcsolatot alakítsunk ki, egy olyan szerencsejáték szolgáltatást fejlesztünk, amely a következő alapelveket követi:
 
 - Nincs letöltési kötelezettség: A játék teljes egészében böngészőn keresztül érhető el, így elkerülhető, hogy a felhasználóknak bármilyen fájlt le kelljen           tölteniük, minimalizálva annak lehetőségét, hogy az adataikhoz bárki hozzáférhessen.
@@ -27,10 +27,10 @@ Annak érdekében, hogy a felhasználókkal kényelmes és bizalomra épülő ka
   
 A modell célja egy olyan könnyen hozzáférhető és biztonságos szerencsejáték platform létrehozása, amely nem igényel sem pénzügyi elköteleződést, sem személyes adatokat, és folyamatosan rendelkezésre áll a felhasználók számára, bármiféle technikai függőség nélkül.
 
-## 6.Használati esetek
+## 6. Használati esetek
 A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9. Forgatókönyv). A szolgáltatás teljesen ingyenes, és nincs szükség regisztrációra, így a felhasználók széles köre számára hozzáférhetővé válik, személyes adataikat nem tesszük ki a kiszivárgás veszélyének (data-leak). Ezenkívül azoknak is lehetőséget biztosítunk, akik nem tudnák kifizetni a hasonló játékok belépési díját. Az egyszerűen kezelhető, letisztult és áttekinthető felület garantálja a könnyű használatot. Mivel nincs szükség szerveroldali kódra, a szolgáltatás állandóan elérhető a felhasználók számára.
 
-## 7.Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
+## 7. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
   1, Játékszabályok implementálása:
     A játék a klasszikus Blackjack/21 szabályain alapul, így a használati esetek magukban foglalják a lapok kiosztását, a hit/stand funkciókat, a dealer és a játékos pontszámának összehasonlítását, valamint a nyerési és vesztési feltételeket. Ezáltal teljes mértékben eleget teszünk a szerencsejáték működésének követelményeinek.
 
@@ -46,11 +46,11 @@ A projektünk a hagyományos Blackjack/21 szabályrendszerét követi (lásd: 9.
   5,Ingyenes hozzáférés és egyszerűség:
     A játék teljesen ingyenesen elérhető, és nem igényel semmilyen pénzbeli befektetést. Ezáltal biztosítjuk, hogy a felhasználó anélkül élvezhesse a játékot, hogy bármilyen anyagi elköteleződésbe kellene bocsátkoznia, így teljes mértékben megfelel a használati esetekben előírt követelményeknek.
 
-## 8.Képernyő tervek
+## 8. Képernyő tervek
 
 ![Funk drawio](https://user-images.githubusercontent.com/82752886/135749142-efffc873-8187-4163-84a0-3c5b748e40e6.png)
 
-## 9.Forgatókönyv
+## 9. Forgatókönyv
 Szereplők: A felhasználó és a futó webes alkalmazás.
 
 Kezdés:
@@ -85,10 +85,10 @@ A játék nincs időhöz vagy körökhöz kötve, tehát elméletileg végtelens
 
 Kiegészítés: A játék biztosítja a folyamatos kihívást azáltal, hogy a nehézség növekedik, ahogy a felhasználó előrehalad. Az alkalmazás emellett valós idejű visszajelzéseket is adhat a játékon belüli döntésekről, segítve ezzel a tanulást és a stratégia finomítását.
 
-## 10.Funkció-követelmény megfeleltetés
+## 10. Funkció-követelmény megfeleltetés
 A projektünk a Blackjack/21 szabályrendszert fogja követni, így a játék által megkövetelt funkciók mind beépülnek a rendszerbe, ezzel biztosítva, hogy a szerencsejátékra vonatkozó követelmények teljesüljenek.
 
-## 11.Fogalomszótár
+## 11. Fogalomszótár
 Dealer: A program által irányított "ellenfél", amely szintén részt vesz a játékban és követi a Blackjack szabályait. A játékos célja, hogy jobb pontszámot érjen el, mint a dealer.
 
 Hit/Stand:
