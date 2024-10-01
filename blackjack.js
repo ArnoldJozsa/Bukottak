@@ -12,6 +12,12 @@ var IsThereAnyBet = false;
 var minimumBet = rendOsszeg * 0.10;
 var activeBet = 0;
 
+function DrawRandomCard(deck) {
+
+    var randomindex = Math.floor(deck.length * Math.random())
+    return deck[randomindex];
+}
+
 function IsInt(n) {
     return n % 1 == 0;
 }
