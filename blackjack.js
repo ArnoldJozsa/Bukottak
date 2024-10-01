@@ -11,3 +11,32 @@ var VDHuzhat = true;
 var IsThereAnyBet = false;
 var minimumBet = rendOsszeg * 0.10;
 var activeBet = 0;
+
+
+function IsInt(n) {
+    return n % 1 == 0;
+}
+
+function Bet(){
+    if (activeBet != 0) {
+        return;
+    }
+
+    let bet;
+    do {
+        bet = prompt("Kérem adja meg a tétet, nem lehet tört! (minimum tét: " + minimumBet +")","100");
+    } while (bet == null || bet < minimumBet || isNaN(bet) || !IsInt(bet));
+
+    activeBet = parseInt(bet);
+    tempstorage = nyertOsszeg;
+    if (activeBet > rendOsszeg) {
+        activeBet = 0;
+        do {
+            bet = prompt("Kérem adja meg a tétet, nem lehet tört! (minimum tét: " + minimumBet +")");
+        } while (bet == null || bet < minimumBet || isNaN(bet) || !IsInt(bet));
+        activeBet = parseInt(bet);
+    }
+    rendOsszeg = rendOsszeg - activeBet;
+    document.getElementById("AvailableFunds").innerHTML = rendOsszeg+" (Nyert: "+nyertOsszeg+")";
+    document.getElementById("ShowPlayerCards").innerHTML = jatekosKartyai+ " ("+GetCardValue(jatekosKartyai)+")";
+}
