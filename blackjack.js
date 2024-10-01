@@ -18,6 +18,15 @@ function DrawRandomCard(deck) {
     return deck[randomindex];
 }
 
+function StartGame() {
+    jatekosKartyai = [DrawRandomCard(deck), DrawRandomCard(deck)];
+    VDKartyai = [DrawRandomCard(deck), DrawRandomCard(deck)];
+    if ((VDKartyai[0] + VDKartyai[1]) == 17) {
+        VDHuzhat = false;
+    }
+    Doubling = false;
+}
+
 function IsInt(n) {
     return n % 1 == 0;
 }
