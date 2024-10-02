@@ -54,3 +54,16 @@ function Bet(){
     document.getElementById("AvailableFunds").innerHTML = rendOsszeg+" (Nyert: "+nyertOsszeg+")";
     document.getElementById("ShowPlayerCards").innerHTML = jatekosKartyai+ " ("+GetCardValue(jatekosKartyai)+")";
 }
+function Throw() {
+    if (activeBet == 0) {
+        alert("Először tétet kell raknia!");
+        return;
+    }
+    alert("Mivel bedobta kártyáit, elvesztette a tétet és kártyáit!");
+    nyertOsszeg = nyertOsszeg - activeBet;
+    StartGame();
+    document.getElementById("ShowPlayerCards").innerHTML = "?, ? (Tegyen tétet a kör megkezdéséhez!)";
+    document.getElementById("ShowVDCards").innerHTML = VDKartyai[0] + ", ?";
+    activeBet = 0;
+    Doubling = false;
+}
