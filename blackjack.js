@@ -160,3 +160,31 @@ function GameLost() {
     alert("Kifogyott a zsetonokból, vége a játéknak! Indítson egy újabb kört az alapértelmezett 1000 zsetonnal való induláshoz!");
     StartGame();
 }
+function DoubleDown() {
+    if (activeBet == 0) {
+        alert("Először tétet kell raknia!");
+        Bet();
+        DoubleDown();
+        return;
+    }
+    if ((rendOsszeg - activeBet) < minimumBet) {
+        alert("Nincs elég zsetonja a duplázáshoz!");
+        return;
+    }
+    if (Doubling) {
+        alert("Már duplázva van a tét!");
+        return;
+    }
+
+    let storedbet = activeBet;
+
+    activeBet = activeBet * 2;
+    rendOsszeg = rendOsszeg - storedbet;
+    Doubling = true;
+
+    Call();
+    if (GetCardValue(jatekosKartyai) > 21) {
+        RoundLost();
+    }
+}
+StartGame();
