@@ -98,3 +98,19 @@ function GetCardValue(CardDeck) {
     }
     return sumvalue;
 }
+function Call() {
+    if (activeBet == 0) {
+        alert("Először tétet kell raknia!");
+        Bet();
+        Call();
+        return;
+    }
+    jatekosKartyai.push(DrawRandomCard(deck));
+    document.getElementById("ShowPlayerCards").innerHTML = jatekosKartyai+ " ("+GetCardValue(jatekosKartyai)+")";
+    if (GetCardValue(jatekosKartyai) == 21) {
+        StopAndEvaluate();
+    }
+    if (GetCardValue(jatekosKartyai) > 21) {
+        RoundLost();
+    }
+}
