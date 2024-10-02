@@ -91,3 +91,10 @@ function RoundWon() {
     activeBet = 0;
     Doubling = false;
 }
+function GetCardValue(CardDeck) {
+    sumvalue = 0;
+    for (let i = 0; i < CardDeck.length; i++) {
+        sumvalue = sumvalue + CardDeck[i];
+    }
+    return sumvalue;
+}
