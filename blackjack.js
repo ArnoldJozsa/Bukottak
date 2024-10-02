@@ -67,3 +67,16 @@ function Throw() {
     activeBet = 0;
     Doubling = false;
 }
+function RoundLost() {
+    alert("Elvesztette a kört, a tétje elveszett és új kártyákat kap. Lapjai: "+ jatekosKartyai+" ("+GetCardValue(jatekosKartyai)+")");
+    nyertOsszeg = nyertOsszeg - activeBet;
+    activeBet = 0;
+    if (rendOsszeg == 0 || rendOsszeg < 0) {
+        GameLost();
+    }
+    StartGame();
+    document.getElementById("ShowPlayerCards").innerHTML = "?, ? (Tegyen tétet a kör megkezdéséhez!)";
+    document.getElementById("ShowVDCards").innerHTML = VDKartyai[0] + ", ?";
+
+    doubling = false;
+}
