@@ -188,3 +188,7 @@ function DoubleDown() {
     }
 }
 StartGame();
+
+document.getElementById("ShowPlayerCards").innerHTML = "?, ? (Tegyen tétet a kör megkezdéséhez!)"
+document.getElementById("ShowVDCards").innerHTML = VDKartyai[0] + ", ?";
+document.getElementById("AvailableFunds").innerHTML = rendOsszeg+ " (Nyert: "+nyertOsszeg+")";
