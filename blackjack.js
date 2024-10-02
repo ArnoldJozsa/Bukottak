@@ -147,3 +147,16 @@ function StopAndEvaluate() {
         return;
     }
 }
+function GameLost() {
+    jatekosKartyai;
+    VDKartyai;
+    rendOsszeg = 1000;
+    nyertOsszeg = 0;
+    VDHuzhat = true;
+    IsThereAnyBet = false;
+    minimumBet = rendOsszeg * 0.10;
+    activeBet = 0;
+    Doubling = false;
+    alert("Kifogyott a zsetonokból, vége a játéknak! Indítson egy újabb kört az alapértelmezett 1000 zsetonnal való induláshoz!");
+    StartGame();
+}
