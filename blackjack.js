@@ -27,6 +27,7 @@ function StartGame() {
     Doubling = false;
 }
 
+
 function IsInt(n) {
     return n % 1 == 0;
 }
