@@ -3,7 +3,7 @@ header {
 }
 .red
 {
-    color:red;
+    color: rgba(102,7,30,255);
 }
 .black
 {
@@ -11,7 +11,7 @@ header {
 }
 body
 {
-    background-color: green;
+    background-color: rgb(26,61,45);
     color:white;
     font-size: 25px;
 }
