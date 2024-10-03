@@ -8,3 +8,8 @@ StartGame():
 A játékos kártyái és a dealer kártyái helyesen lettek beállítva. 
 A dealer kártyáinak összegét ellenőrzi; ha 17, a dealer nem húz több kártyát, ami a szabályoknak megfelelően működik. 
 A Doubling változó alapértelmezett értéke false, ami szintén helyes.
+
+DrawRandomCard(deck):
+A kártyák véletlenszerű kiválasztása megfelelően működik. 
+Minden hívásnál eltérő indexet ad vissza, ami garantálja a véletlenszerűséget. 
+Ellenőriztem, hogy a visszaadott kártya mindig a deck tömbből származik, és a kártyák számossága csökken a húzások számával.
